@@ -1,0 +1,17 @@
+{
+  "name": "express_demo",
+  "version": "0.1.0",
+  "description": "A demo for the COmp thinking class",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "watch": "nodemon -e js,tl",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-tl": "^1.0.2"
+  }
+}
