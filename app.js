@@ -13,7 +13,12 @@ app.get('/', (req, res) => {
 })
 
 app.get("/calculate", (req, res) => {
-    res.render("solution")
+    var name = req.query.name;
+    var a = req.query.a;
+    var b = req.query.b;
+    var answer = Number(a) + Number(b);
+
+    res.render("solution", { name, a, b, answer})
 })
 
 
